@@ -1,0 +1,74 @@
+/* admin-style.css - Styling for AI Virtual Employee - OpenAI Integration plugin admin pages */
+
+/* General admin page styling */
+.wrap {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Settings form styling */
+.ai-virtual-employee-settings-form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+/* Input fields styling */
+.ai-virtual-employee-settings-form input[type='text'] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Submit button styling */
+.ai-virtual-employee-settings-form input[type='submit'] {
+    background-color: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    vertical-align: top;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ai-virtual-employee-settings-form input[type='submit']:hover {
+    background-color: #0073aa;
+}
+
+/* Admin page title styling */
+.wrap > h1 {
+    font-size: 23px;
+    margin: 0;
+    padding: 9px 0;
+}
+
+/* Section and field descriptions */
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Error and success message styling */
+.message {
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.message.error {
+    background-color: #dc3232;
+}
+
+.message.success {
+    background-color: #46b450;
+}
